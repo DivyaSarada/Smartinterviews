@@ -37,8 +37,23 @@ input {
 .icons {
   display: flex;
 }
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    color:#2196f3 ;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+    outline: none;
+    border: none;
+}
 button:hover {
   cursor: pointer;
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+  transition-delay: 0.2s;
 }
 .iconpadding{
     padding: 0.3rem 1rem 0rem 1rem;
