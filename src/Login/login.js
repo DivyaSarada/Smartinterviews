@@ -45,7 +45,7 @@ function Login() {
                   type="email"
                   autoComplete="off"
                 />
-                <EmailIcon style={{ color: "white", size: "2rem" }} />
+                <div className="iconpadding"><EmailIcon style={{ color: "white", size: "2rem" }} /></div>
               </div>
               <label className="form-label mb-2" htmlFor="password">
                 Password
@@ -61,7 +61,7 @@ function Login() {
                   type="password"
                   autoComplete="off"
                 />
-                <LockIcon style={{ color: "white" }} />
+                <div className="iconpadding"><LockIcon style={{ color: "white" }} /></div>
               </div>
               <button
                 className="btn btn-primary mb-2"

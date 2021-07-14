@@ -40,3 +40,6 @@ input {
 button:hover {
   cursor: pointer;
 }
+.iconpadding{
+    padding: 0.3rem 1rem 0rem 1rem;
+}

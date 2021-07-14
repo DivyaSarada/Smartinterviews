@@ -26,7 +26,7 @@ function Home() {
         className="btn btn-dark"
         style={{ fontSize: "2rem" }}
       >
-        Log Out
+        LOG OUT
       </button>
     </div>
   );

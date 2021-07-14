@@ -55,7 +55,7 @@ function Register() {
                   type="email"
                   autoComplete="off"
                 />
-                <EmailIcon style={{ color: "white" }} />
+                <div className="iconpadding"><EmailIcon style={{ color: "white" }} /></div>
               </div>
               <label className="form-label mb-2" htmlFor="password">
                 Password
@@ -72,7 +72,7 @@ function Register() {
                   type="password"
                   autoComplete="off"
                 />
-                <LockIcon style={{ color: "white" }} />
+                <div className="iconpadding"><LockIcon style={{ color: "white" }} /></div>
               </div>
 
               <button
