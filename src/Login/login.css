@@ -1,31 +1,31 @@
-.container{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    font-family: 'quahiri';
-    font-weight: bold;
-    background: url('../Home/images/bg1.jpg');
-    min-height: 100vh;
-    min-width: 100vw;
-    background-size: cover;
-    background-position:center;
+.container {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "quahiri";
+  font-weight: bold;
+  background: url("../Home/images/bg1.jpg");
+  min-height: 100vh;
+  min-width: 100vw;
+  background-size: cover;
+  background-position: center;
 }
-input{
-    background: black;
-    margin: 1rem;
-   border-style: none;
-   padding: 1vh;
-   min-width: 50vh;
-   color: #fff;
+input {
+  background: black;
+  margin: 1rem;
+  border-style: none;
+  padding: 1vh;
+  min-width: 50vh;
+  color: #fff;
 }
-.card{
-    padding: 5vh;
-    min-width: 95vh;
-    min-height: fit-content;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    background: rgba(0,0,0,0.5);
-    color: white;
+.card {
+  padding: 5vh;
+  min-width: 95vh;
+  min-height: fit-content;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
 }
