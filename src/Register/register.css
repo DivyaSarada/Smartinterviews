@@ -1,0 +1,42 @@
+.container {
+  background: url("../Home/images/bg1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  min-width: 110vh;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "quahiri";
+  font-weight: bold;
+}
+input {
+  background: black;
+  margin: 1rem;
+  border-style: none;
+  padding: 1vh;
+  min-width: 50vh;
+  color: #fff;
+}
+.head {
+  margin-top: 20vh;
+}
+.card {
+  padding: 10vh;
+  min-width: 100vh;
+  min-height: fit-content;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.icons {
+  display: flex;
+}
+button:hover {
+  cursor: pointer;
+}

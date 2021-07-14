@@ -1,0 +1,21 @@
+.home{
+    min-height: 100vh;
+    font-family: 'quahiri';
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    justify-content: center;
+    background-image: url('./images/bg.jpg') ;
+    background-size: cover;
+    background-position:center;
+   
+}
+p{
+    margin: auto;
+    color: white;
+    font-size: 2.5rem;
+}
+img{
+    height: 5%;
+    width: 5%;
+}
