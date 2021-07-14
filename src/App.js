@@ -12,7 +12,7 @@ function App() {
         <Route exact path="/register" component={Register} />
         <Route exact path="/login" component={Login} />
         <ProtectedRoute exact path="/home" component={Home} />
-      </Switch>
+	  </Switch>
     </Router>
   );
 }
